@@ -9,7 +9,6 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
-    padding-bottom: 55px;
 }
 
 .banner__wrap-h {
@@ -32,4 +31,9 @@
     max-width: 607px;
     text-align: center;
 
+}
+.banner__logo{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
 }
