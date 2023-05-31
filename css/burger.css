@@ -18,6 +18,7 @@
 
 .burger__wrap-desc-info {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 17px;
@@ -33,12 +34,12 @@
 }
 
 .burger__wrap-desc-info-p {
-    font-family: var(--GB);
+    font-family: var(--GR);
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     color: var(--grey);
-    max-width: 371px;
-    width: 100%;
+    width: 371px;
+    text-align: center;
 
 }
