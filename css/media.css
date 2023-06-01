@@ -136,6 +136,40 @@
     .menu {
         margin: 50px 0;
     }
+
+    .header__desc-info-p {
+        max-width: 250px;
+        line-height: 25px;
+    }
+
+    .header {
+        height: 70vh;
+    }
+
+    .header__arrow-logo {
+        bottom: 210px;
+    }
+
+    .header__desc-pic-img {
+        width: 300px;
+        height: 320px;
+    }
+
+    .header__desc-info {
+        padding-top: 50px;
+    }
+    .menu__wrap-time-logo{
+        width: 200px;
+    }
+    .menu__wrap-time{
+        height: 250px;
+    }
+    .menu__wrap-order{
+        height: 250px;
+    }
+    .menu__wrap-person{
+        height: 280px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -166,30 +200,7 @@
     }
 }
 
-@media screen and (max-width: 695px) {
-    .header__desc-info-p {
-        max-width: 250px;
-        line-height: 25px;
-    }
 
-    .header {
-        height: 70vh;
-    }
-
-    .header__arrow-logo {
-        bottom: 210px;
-    }
-
-    .header__desc-pic-img {
-        width: 300px;
-        height: 320px;
-    }
-
-    .header__desc-info {
-        padding-top: 50px;
-    }
-
-}
 
 @media screen and (max-width: 540px) {
     .header__wrap {
@@ -223,7 +234,20 @@
         bottom: 280px;
     }
 }
-
+@media screen and (max-width: 511px){
+    .menu__wrap-desc-p{
+        font-size: 20px;
+        max-width: 250px;
+        line-height: 30px;
+    }
+    .menu__wrap-desc-p-p{
+        max-width: 250px;
+    }
+    .menu__wrap-desc-h{
+        max-width: 220px;
+    }
+    
+}
 @media screen and (max-width: 484px) {
     .header__wrap {
         justify-content: center;
@@ -275,10 +299,18 @@
         gap: 10px;
     }
 
-    .menu__wrap-desc-p {
-        font-size: 25px;
+}
+@media screen and (max-width: 376px){
+    .menu__wrap-desc-h{
+        font-size: 10px;
     }
-    .menu__wrap{
-        gap: 10px;
+    .menu__wrap-person-logo{
+        width: 100px;
+    }
+    .menu__wrap-order-logo{
+        width: 100px;
+    }
+    .menu__wrap-time-logo{
+        width: 100px;
     }
 }
