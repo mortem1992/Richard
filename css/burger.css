@@ -39,7 +39,7 @@
     font-weight: 400;
     line-height: 30px;
     color: var(--grey);
-    width: 371px;
+    max-width: 371px;
     text-align: center;
 
 }
