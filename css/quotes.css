@@ -1,5 +1,5 @@
 .quotes {
-    margin-bottom: 142px;
+    margin-bottom: 118px;
 }
 
 .quotes__wrap {
@@ -61,6 +61,7 @@
     align-items: center;
     justify-content: center;
     gap: 16px;
+    margin-bottom: 142px;
 }
 .quotes__wrap-btns-btn{
     width: 7px;
@@ -71,11 +72,14 @@
 .quotes__wrap-btns-btn:hover{
     background: #222222;
 }
-
-@media screen and (max-width:500px) {
-    .quotes__wrap-p{
-        font-size: 18px;
-        text-align: justify;
+@media screen and (max-width:1030px){
+    .quotes__wrap-prod{
+        width: 700px;
+    }
+}
+@media screen and (max-width:730px){
+    .quotes__wrap-prod{
+        width: 470px;
     }
     .quotes__wrap-desc{
         margin-bottom: 40px;
@@ -86,4 +90,17 @@
     .quotes__wrap-logo{
         margin-bottom: 30px;
     }
+    .quotes__wrap-btns{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:500px) {
+    .quotes__wrap-p{
+        font-size: 18px;
+        text-align: justify;
+    }
+    .quotes__wrap-prod{
+        width: 280px;
+    }
+    
 }
