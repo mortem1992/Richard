@@ -1,6 +1,3 @@
-.quality{
-    margin-bottom: 160px;
-}
 .quality__wrap {
     display: flex;
     align-items: center;
@@ -37,9 +34,6 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 60px;
-    }
-    .quality{
-        margin-bottom: 50px;
     }
 }
 @media screen and (max-width:410px){

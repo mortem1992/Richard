@@ -1,0 +1,142 @@
+.porta {
+    margin: 170px 0 162px;
+}
+
+.porta__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 161px;
+}
+
+.porta__wrap-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.porta__wrap-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.porta__wrap-desc-h {
+    font-family: var(--GR);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: var(--grey);
+    text-transform: uppercase;
+
+}
+
+.porta__wrap-desc-h-h {
+    font-family: var(--GR);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    color: var(--black);
+    max-width: 258px;
+    width: 100%;
+}
+
+.porta__wrap-desc-p span {
+    font-family: var(--GB);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: underline;
+    color: var();
+}
+
+.porta__wrap-desc-p {
+    font-family: var(--GR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: var(--grey);
+    max-width: 330px;
+}
+
+.porta__wrap-desc-h-h-rest {
+    font-family: var(--GR);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    color: var(--black);
+    max-width: 304px;
+    width: 100%;
+}
+
+
+@media screen and (max-width:880px) {
+    .porta {
+        margin: 100px 0;
+    }
+
+    .porta__wrap-desc-h-h {
+        font-size: 25px;
+    
+    }
+
+    .porta__wrap-desc-p {
+        font-size: 14px;
+    }
+
+    .porta__wrap-desc-p span {
+        font-size: 14px;
+    }
+
+    .porta__wrap-desc-h-h-rest {
+        font-size: 27px;
+    }
+
+    .porta__wrap {
+        gap: 100px;
+    }
+    .porta__wrap-logo{
+        width: 300px;
+        height: 200px;
+    }
+    .porta__wrap-desc{
+        gap: 15px;
+    }
+    .porta__wrap-wrap{
+        gap: 40px;
+    }
+
+}
+
+@media screen and (max-width:567px){
+    .porta__wrap-wrap{
+        flex-direction: column;
+    }
+    .porta__wrap-desc-h-h{
+        max-width: 330px;
+    }
+    .porta__wrap-desc{
+        gap: 5px;
+    }
+    .porta__wrap-desc-p{
+        max-width: 430px;
+        text-align: justify;
+    }
+    .porta__wrap-wrap{
+        gap: 15px;
+    }
+    .porta__wrap{
+        gap: 50px;
+    }
+    .porta{
+        margin: 50px 0;
+    }
+}
+@media screen and (max-width:340px){
+    .porta__wrap-desc-p{
+        max-width: 270px;
+    }
+}
