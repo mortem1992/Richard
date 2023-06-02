@@ -1,0 +1,59 @@
+.download {
+    background: url(../img/fon.svg) no-repeat center / cover;
+    height: 70vh;
+}
+
+.download__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 100%;
+}
+
+.download__wrap-h {
+    font-family: var(--GR);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    color: var(--white);
+    text-align: center;
+
+}
+
+.download__wrap-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.download__wrap-btns-btn {
+    padding: 20px 40px;
+    font-family: var(--GR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--white);
+    background: none;
+    border: 3px solid #FFFFFF33;
+    border-radius: 3px;
+}
+.download__wrap-btns-btn:hover{
+    background: #FC0A7E;
+    border: none;
+}
+
+@media screen and (max-width:410px) {
+    .download__wrap-h{
+        font-size: 27px;
+    }
+    .download__wrap-btns-btn{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .download__wrap{
+        gap: 20px;
+    }
+}
