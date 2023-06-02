@@ -23,6 +23,7 @@
     font-weight: 400;
     line-height: 20px;
     color: var(--white);
+    transition: 0.4s;
 
 }
 .header__wrap-menu-link a:hover{
@@ -37,7 +38,6 @@
     display: flex;
     align-items: center;
 
-    
 }
 
 .header__desc-info {
@@ -64,7 +64,6 @@
     width: 100%;
     padding-bottom: 15px;
     
-    
 }
 
 .header__desc-info-btn {
@@ -74,16 +73,19 @@
     line-height: 26px;
     color: var(--white);
     padding: 20px 40px;
-    background: #FC0A7E;
-    border: none;
+    background: none;
+    border: 3px solid #FFFFFF33;
     border-radius: 3px;
+    
+}
+.header__desc-info-btn:hover{
+    border: none;
+    background: #CF0063;
 }
 .header__desc-pic{
     position: absolute;
    top: 120px;
-   right: 110px;
-   
-   
+   right: 110px; 
 }
 .header__arrow-logo{
     position: absolute;
